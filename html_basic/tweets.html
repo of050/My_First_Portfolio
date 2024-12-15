@@ -1,63 +1,49 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Home</title>
+    <title>Omar Fadel - Tweets</title>
 </head>
 <body>
-
+    <!-- Header Section -->
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tweets.html">Tweets</a></li>
             </ul>
         </nav>
     </header>
-    
+
+    <!-- Main Content -->
     <main>
         <article>
-            <h1>Welcome to My Portfolio</h1>
-            <h2>About Me</h2>
+            <h1>Latest Updates</h1>
             <p>
-                Hello! My name is Omar Fadel, and I am a passionate web developer specializing in 
-                crafting user-friendly websites. Below, you'll find an overview of my projects and skills.
+                Welcome to the Tweets page! Here, you'll find embedded tweets showcasing the latest updates and projects.
             </p>
-
-            <h2>My Experience</h2>
-            <p>
-                I excel in frontend and backend development, showcasing expertise with modern 
-                technologies like HTML, CSS, and JavaScript.
-            </p>
-
-            <h3>Skills</h3>
-            <ul>
-                <li>Frontend Development</li>
-                <li>Backend Development</li>
-                <li>UI/UX Design</li>
-            </ul>
 
             <!-- Embedded Tweet -->
-            <h3>Latest Update</h3>
+            <h3>Latest Tweet</h3>
             <blockquote class="twitter-tweet">
                 <p lang="en" dir="ltr">
                     Check out my latest project! 🚀 
-                    <a href="https://x.com/alx_africa/status/1867524880704712878" aria-label="View this tweet">
-                        Tweet Link
-                    </a>
+                    <a href="https://x.com/alx_africa/status/1867524880704712878" aria-label="View this tweet">Tweet Link</a>
                 </p>&mdash; Omar Fadel
             </blockquote>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+            <!-- Table of Learners -->
             <h3>Our Learners</h3>
             <p>Here’s a quick look at some of the learners I’ve worked with:</p>
             <table>
+                <caption>Table showcasing learners' demographics.</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Age</th>
-                        <th scope="col">Country</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -90,11 +76,15 @@
         </aside>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
         <p>
             Made by Omar Fadel – 
-            <a href="file:///C:/Users/Omar%20Fadel/Documents/MY_First_Portfolio/html_basic/index.html" target="_blank" rel="noopener noreferrer">View Portfolio</a>
+            <a href="index.html" target="_blank" rel="noopener noreferrer">View Portfolio</a>
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/omarfadel" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/omarfadel" target="_blank">GitHub</a>
         </p>
     </footer>
 </body>
